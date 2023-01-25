@@ -8,9 +8,9 @@ public class RectangleComputation {
         Scanner sc = new Scanner(System.in);
 
         // Getting user input for length and width as "int" type
-        System.out.println("Enter the length:");
+        System.out.println("Enter the length: ");
         length = sc.nextInt();
-        System.out.println("Enter the width:");
+        System.out.println("Enter the width: ");
         width = sc.nextInt();
 
         // Computing perimeter and area

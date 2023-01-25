@@ -8,9 +8,9 @@ public class CylinderComputation {
         Scanner sc = new Scanner(System.in);
 
         // Getting user input
-        System.out.println("Enter the radius:");
+        System.out.println("Enter the radius: ");
         radius = sc.nextDouble();
-        System.out.println("Enter the height:");
+        System.out.println("Enter the height: ");
         height = sc.nextDouble();
 
         // Computing output

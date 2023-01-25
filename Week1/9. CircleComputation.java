@@ -8,7 +8,7 @@ public class CircleComputation {
         Scanner sc = new Scanner(System.in);
 
         // Getting user input
-        System.out.println("Enter the radius:");
+        System.out.println("Enter the radius: ");
         radius = sc.nextDouble();
 
         // Computing output

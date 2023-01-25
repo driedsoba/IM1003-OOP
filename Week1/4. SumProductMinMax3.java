@@ -30,14 +30,14 @@ public class SumProductMinMax3 {
         }
 
         if (num1 > num3) {		// Comparing to find max
-            max = num3;
+            max = num1;
         } else if (num2 > num3) {
             max = num2;
         }
 
-        System.out.println("The sum is " + sum);		// Printing results
-        System.out.println("The product is " + product);
-        System.out.println("The min number is " + min);
-        System.out.println("The max number is " + max);
+        System.out.println("The sum is: " + sum);		// Printing results
+        System.out.println("The product is: " + product);
+        System.out.println("The min number is: " + min);
+        System.out.println("The max number is: " + max);
     }
 }

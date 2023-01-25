@@ -8,7 +8,7 @@ public class PrintNumberInWord {
         Scanner sc = new Scanner(System.in);
 
         //Getting user input as "int" type
-        System.out.println("Enter a number:");
+        System.out.println("Enter a number: ");
         numberIn = sc.nextInt();
 
         //Using switch-case to handle 11 cases (0 to 9 and invalid input)

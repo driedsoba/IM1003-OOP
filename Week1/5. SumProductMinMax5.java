@@ -48,9 +48,9 @@ public SumProductMinMax5 Test {
             max = num5;
         }
 
-        System.out.println("The sum is " + sum);
-        System.out.println("The product is " + product);
-        System.out.println("The min number is " + min);
-        System.out.println("The max number is " + max);
+        System.out.println("The sum is: " + sum);
+        System.out.println("The product is: " + product);
+        System.out.println("The min number is: " + min);
+        System.out.println("The max number is: " + max);
     }
 }

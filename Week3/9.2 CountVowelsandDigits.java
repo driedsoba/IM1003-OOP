@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CountVowelsandDigits {
+public class CountVowelsAndDigits {
     public static void main(String[] args) {
 
         // Declaration of variables

@@ -16,9 +16,9 @@ public class ReverseString {
         // Use inStr.charAt(index) in a loop to extract character at "index" from inStr.
         // The String's index begins at 0 from the left.
 
+        System.out.print("The reverse is: ");
         for (int charIdx = inStrLen - 1; charIdx >= 0; charIdx--) {  // Process the String from the right
             // Print the inStr.charAt(charIdx)
-            System.out.print("The reverse is: ");
             System.out.print(inStr.charAt(charIdx));
         }
     }

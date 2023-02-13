@@ -18,7 +18,8 @@ public class ReverseString {
 
         for (int charIdx = inStrLen - 1; charIdx >= 0; charIdx--) {  // Process the String from the right
             // Print the inStr.charAt(charIdx)
-            System.out.print("The reverse is: " + inStr.charAt(charIdx));
+            System.out.print("The reverse is: ");
+            System.out.print(inStr.charAt(charIdx));
         }
     }
 }

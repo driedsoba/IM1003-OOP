@@ -28,6 +28,7 @@ public class Bin2Dec {
                 dec += (int)Math.pow(2, (binStrLen - 1 - binStrIdx));
             } else {
                 System.err.println("Invalid Binary String");
+                return;
             }
         }
         System.out.println("The decimal equivalent is: " + dec);

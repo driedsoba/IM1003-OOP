@@ -27,7 +27,7 @@ public class SearchArray {
         System.out.println("Enter the search key: ");
         key = sc.nextInt();
 
-        if (search(number, key) > 0) {                       // To prevent out of bounds exception error
+        if (search(number, key) > 0) {                       // Determining output through method call
             // Printing output with method call
             System.out.print(key + " is found with index " + search(number, key));
         } else {

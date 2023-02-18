@@ -5,8 +5,8 @@ public class GradesHistogramVertical {
 
         // Declare variables
         int numStudents, lowerBin, upperBin;
-        int[] grades;               // Declare array name, to be allocated after numStudents is known
-        int[] bins = new int[10];   // int array of 10 histogram bins for 0-9, 10-19, ..., 90-100
+        int[] grades;                                   // Declare array name, to be allocated after numStudents is known
+        int[] bins = new int[10];                       // int array of 10 histogram bins for 0-9, 10-19, ..., 90-100
         Scanner sc = new Scanner(System.in);
 
         // Reading input for numStudents
@@ -26,15 +26,15 @@ public class GradesHistogramVertical {
 
         // Populate the bins
         for (int i = 0; i < grades.length; ++i) {
-            if (grades[i] == 100) {   /* Need to handle 90-100 separately as it has 11 items. So we consider 100
-                                         as a case in itself */
-                ++bins[9];            // eliminating this special case first by adding to bin outside of loop
+            if (grades[i] == 100) {                     /* Need to handle 90-100 separately as it has 11 items. So we consider 100
+                                                           as a case in itself */
+                ++bins[9];                              // eliminating this special case first by adding to bin outside of loop
             } else {
-                ++bins[grades[i] / 10];     // adding count to bins[0-9] with logic where 21/10 = 2 and 45/10 = 4
+                ++bins[grades[i] / 10];                 // adding count to bins[0-9] with logic where 21/10 = 2 and 45/10 = 4
             }
         }
         // Print the vertical histograms
-        int maxItems = max(bins);           // to find max height of histogram
+        int maxItems = max(bins);                       // to find max height of histogram
 
         // Printing stars
         for (int rows = maxItems; rows > 0; rows--) {

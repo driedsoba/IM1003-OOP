@@ -26,7 +26,7 @@ public class ReverseArray {
         // if case 4 with 0 terms in array, else cases 1-3
         if (numbers.length == 0) {
             System.out.println("The original array is: []");
-            System.out.println("The reverse is: [] ");
+            System.out.println("The reverse is: []");
         } else {
             // Printing output template for original array
             System.out.print("The original array is: ");

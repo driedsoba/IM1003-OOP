@@ -5,9 +5,6 @@ public class Account {
     private String name;
     private int balance;
 
-    public Account() {  // default constructor
-        balance = 0;
-    }
 
     public Account(String id, String name) {    // constructor overloading
         this.id = id;
@@ -51,7 +48,8 @@ public class Account {
 
     /* important to understand that we are referring to instances/objects of type Account
        in this case, the instances of Account without the balance parameter would have
-       balance = 0 as initialized in default constructor */
+       balance = 0 as initialized in default constructor
+       default values for boolean-false, double/float-0.0 and rest is 0 */
     public int transferTo(Account another, int amount) {
         if(amount <= balance) {
             another.balance += amount;

@@ -1,4 +1,4 @@
-public class TestMain {
+public class TestMainRectangle {
     public static void main(String[] args) {
 
         // Test constructors and toString()

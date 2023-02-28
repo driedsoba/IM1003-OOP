@@ -35,7 +35,7 @@ public class Circle {   // Class Declaration
     }
 
     public double getCircumference() {
-        return 2 * Math.PI * radius;        // Don't need this.radius, no conflict
+        return 2 * Math.PI * radius;            // Don't need this.radius, no conflict
     }
 
     // toString method to print final value of radius after compiler runs

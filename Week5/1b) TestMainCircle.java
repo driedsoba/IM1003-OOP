@@ -4,7 +4,7 @@ public class TestMainCircle {
             Circle c1 = new Circle(1.1);    // Creating instance of overloaded constructor
             System.out.println(c1);   // toString() method call
             Circle c2 = new Circle(); // Creating instance of default constructor
-            System.out.println(c2);
+            System.out.println(c2);   // toString() method call
 
             // Test setter and getter
             c1.setRadius(2.2);           // assigning a value of 2.2 to radius parameter in setter, referring to instance c1

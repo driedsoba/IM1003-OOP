@@ -1,4 +1,4 @@
-public class TestMain {
+public class TestMainCircle {
         public static void main(String[] args) {
             // Test Constructors and toString()
             Circle c1 = new Circle(1.1);    // Creating instance of overloaded constructor

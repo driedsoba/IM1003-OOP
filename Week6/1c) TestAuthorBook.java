@@ -1,4 +1,4 @@
-public class TestMain {
+public class TestAuthorBook {
 
     public static void main(String[] args) {
         // Test Author class

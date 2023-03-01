@@ -1,4 +1,4 @@
-public class TestMain {
+public class TestCustomerInvoice {
     public static void main(String[] args) {
         // Test Customer class
         Customer c1 = new Customer(88, "Tan Ah Teck", 10);

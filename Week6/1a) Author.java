@@ -3,12 +3,7 @@ public class Author {   // Author class is superclass of Book class
     // Declaration of private instance variables
     private String name, email;
 
-    // Default Constructor
-    Author() {
-
-    }
-
-    // Constructor overloading with 2 String parameters
+    // Constructor with 2 String parameters
     Author(String name, String email) {
         this.name = name;
         this.email = email;

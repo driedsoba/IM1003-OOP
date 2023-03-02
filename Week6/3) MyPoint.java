@@ -56,7 +56,7 @@ public class MyPoint {
         return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
     }
 
-    // Method to calculate distance from
+    // Method to calculate distance from origin
     public double distance() {
         return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
     }

@@ -3,7 +3,7 @@ public class MyPoint {
     private int x;
     private  int y;
 
-    public MyPoint() {  // default counstructor
+    public MyPoint() {  // default constructor
         this.x = 0;
         this.y = 0;
     }

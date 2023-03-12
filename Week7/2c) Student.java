@@ -1,4 +1,5 @@
 public class Student extends Person {  // Student is subclass of Person
+    // Student is a Person
 
     // private instance variables
     private String program;

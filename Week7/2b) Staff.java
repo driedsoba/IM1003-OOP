@@ -1,4 +1,5 @@
 public class Staff extends Person {    // subclass of Person
+    //Staff is a person
 
     // private instance variables unique to Staff
     private String school;

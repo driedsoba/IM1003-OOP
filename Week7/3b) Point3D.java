@@ -34,7 +34,8 @@ public class Point3D extends Point2D { // Point3D is Subclass of Point2D
     // method to get x, y and z, invoke getXY() method inherited from Superclass Point2D
     public float[] getXYZ() {
         float[] results = new float[3];
-        results[0] = getXY()[1];    // realise here that you do not need super. because the method names do not conflict
+        results[0] = getXY()[0];    // realise here that you do not need super. because the method names do not conflict
+        results[1] = getXY()[1];
         results[2] = getZ();
         return results;
     }

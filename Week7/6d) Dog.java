@@ -16,6 +16,7 @@ public class Dog extends Mammal { // Dog is a Mammal and an Animal
     }
 
     // toString method overriding toString method in Superclass Mammal
+    @Override
     public String toString() {
         return "Dog" + "[" + super.toString() + "]";
     }

@@ -1,4 +1,4 @@
-public class Author {   // Author class has Book class
+public class Author {   // Author class has Book class (Composition)
 
     // Declaration of private instance variables
     private String name, email;

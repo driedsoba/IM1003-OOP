@@ -1,4 +1,4 @@
-public class Author {   // Author class is superclass of Book class
+public class Author {   // Author class has Book class
 
     // Declaration of private instance variables
     private String name, email;

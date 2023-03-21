@@ -9,7 +9,6 @@ public class Book {
     // Technically we do not need to declare name again, but because of Prof's requirement we include it
     // Constructor declaration, 4 parameters
     public Book(String isbn, String name, Author author, double price) {
-        super();            // could have used super(name, email); but required constructors do not have email, and we only have two constructors in author
         this.isbn = isbn;
         this.name = name;
         this.author = author;
@@ -18,7 +17,6 @@ public class Book {
 
     // Constructor declaration, 5 parameters
     public Book(String isbn, String name, Author author, double price, int qty) {
-        //super();
         this.isbn = isbn;
         this.name = name;
         this.author = author;

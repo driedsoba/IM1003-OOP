@@ -21,6 +21,8 @@ public class MovablePoint extends Point {   // MovablePoint is a Point
     // default constructor, default x and y values
     public MovablePoint() {
         super();    // default no args constructor will be called automatically w/o this statement
+        this.xSpeed = 0;
+        this.ySpeed = 0;
     }
 
     // getters and setters

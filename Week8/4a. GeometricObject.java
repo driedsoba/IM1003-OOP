@@ -1,6 +1,6 @@
 public interface GeometricObject {
 
-    // abstract methods (take note don need open close brackets)
+    // abstract methods (take note dont need open close brackets)
     public double getArea();
 
     public double getPerimeter();

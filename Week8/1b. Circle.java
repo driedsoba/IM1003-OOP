@@ -27,11 +27,13 @@ public class Circle extends Shape { // Circle needs to override Methods in Shape
     }
 
     // method to return area of circle
+    @Override
     public double getArea() {
         return Math.PI * this.radius * this.radius;
     }
 
     // method to return perimeter of circle
+    @Override
     public double getPerimeter() {
         return 2.0 * Math.PI * this.radius;
     }

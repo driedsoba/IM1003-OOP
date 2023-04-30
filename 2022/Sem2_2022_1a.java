@@ -1,4 +1,4 @@
-public class Sem2_2022_1a {
+public class MagicNumbers {
 
     public static void main(String[] args) {
        int[] x = {2, 1, 6, 3, 9};

@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Sem2_2022_1b {
+public class Pattern {
 
     public static void main(String[] args) {
         int size;

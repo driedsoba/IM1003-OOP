@@ -14,7 +14,7 @@ public class Sem2_2022_1b {
         for (int rows = 1; rows <= size; rows++) {
             System.out.println(label + ":");
             for (int cols = 1; cols <= size; cols++) {
-                System.out.println( cols%2 == 0 ? "-" : "+");
+                System.out.println( cols % 2 == 0 ? "-" : "+");
             }
             System.out.println();
             label++;

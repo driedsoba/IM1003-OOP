@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Sem2_2022_1c {
+public class DropVowels {
 
     public static void main(String[] args) {
 

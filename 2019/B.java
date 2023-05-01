@@ -1,6 +1,6 @@
 public abstract class B extends A {
 
-    B(String name) {
+    public B(String name) {
         super(name);
     }
 

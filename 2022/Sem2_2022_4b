@@ -39,8 +39,6 @@ public class AlarmClockGui extends JFrame {
         downBtn2 = new JButton("DN");
         btmPanel.add(downBtn2);
 
-
-
         // Top-level container
         Container cp = getContentPane();
         cp.setLayout(new BorderLayout());

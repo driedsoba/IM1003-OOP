@@ -1,4 +1,4 @@
-public abstract class C extends A {
+public class C extends A {
 
     public C(String name) {
         super(name);

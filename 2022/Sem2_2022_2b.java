@@ -19,6 +19,7 @@ public class AlarmClock {
 
     public void setAlarmTime(int hour, int minute, int second) {
         currentTime.setTime(hour, minute, second);
+        this.setAlarmModeOn(true);
     }
 
     public void setAlarmModeOn(boolean alarmModeOn) {

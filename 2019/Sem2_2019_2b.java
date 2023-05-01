@@ -2,7 +2,7 @@ public class Ball {
     private Point position;
 
 
-    Ball(int x, int y, int z) {
+    public Ball(int x, int y, int z) {
         position = new Point(x, y, z);  // do not forget, nullPointExceptionError
     }
 

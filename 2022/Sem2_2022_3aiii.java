@@ -18,6 +18,6 @@ public class Point3D extends Point2D {
 
     @Override
     public double distance() {
-        return Math.sqrt(Math.pow(x,2) + Math.pow(y, 2) + Math.pow(z, 2));
+        return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2) + Math.pow(z, 2));
     }
 }

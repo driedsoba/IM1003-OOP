@@ -15,7 +15,7 @@ public class MagicNumbers {
 
     public static int magic2(int[] a) {
         if (a.length < 2) throw new IllegalArgumentException();
-        int m = a[0];
+        int m = a[0];   // m = 2
         for (int i = 1; i < a.length - 1; ++i) {    // loops from i = 1 to i = 3, 3 loops
             if (m < a[i]) m = a[i];
             System.out.println("m = " + m);

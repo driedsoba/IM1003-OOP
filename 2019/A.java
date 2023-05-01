@@ -1,7 +1,7 @@
 public abstract class A implements X {
     private String name;
 
-    A(String name) {
+    public A(String name) {
         this.name = name;
     }
 

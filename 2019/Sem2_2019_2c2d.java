@@ -13,6 +13,7 @@ public class Player {
         return Math.abs(position.distance(ball.getPosition())) < 3;
     }
 
+    //  Q2D
     /*
     ball = new Ball(1, 2, 3);
     david = new Player(2, 3, 4);

@@ -8,17 +8,18 @@ public class AlarmClock {
     private boolean alarmModeOn;
 
     public AlarmClock() {
-        alarmTime = new Time(0,0,0);
-        this.alarmModeOn = false;
+        currentTime = new Time(0,0,0);
+        this.setAlarmModeOn(false);
     }
 
     public AlarmClock(int year, int month, int day, int hour, int minute, int second) {
         currentTime = new Time(hour,minute,second);
         currentDate = new Date(year, month, day);
+        this.setAlarmModeOn(false);
     }
 
     public void setAlarmTime(int hour, int minute, int second) {
-        alarmTime.setTime(hour, minute, second);
+        alarmTime = new Time(hour, minute, second);
         this.setAlarmModeOn(true);
     }
 
@@ -39,3 +40,4 @@ public class AlarmClock {
         return (alarmModeOn || currentTime.equals(alarmTime));
     }
 }
+

@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class AlarmClock extends Time {
+public class AlarmClock {
 
     private Date currentDate;
     private Time currentTime;
@@ -8,17 +8,17 @@ public class AlarmClock extends Time {
     private boolean alarmModeOn;
 
     public AlarmClock() {
-        super(0,0,0);
+        this.currentTime.setTime(0,0,0);
         this.alarmModeOn = false;
     }
 
     public AlarmClock(int year, int month, int day, int hour, int minute, int second) {
-        super(hour, minute, second);
+        currentTime.setTime(hour, minute, second);
         currentDate.setTime(year, month, day);
     }
 
     public void setAlarmTime(int hour, int minute, int second) {
-        super.setTime(hour, minute, second);
+        currentTime.setTime(hour, minute, second);
     }
 
     public void setAlarmModeOn(boolean alarmModeOn) {
@@ -26,16 +26,15 @@ public class AlarmClock extends Time {
     }
 
     public String toString() {
-        return currentDate.toString() + " " + super.toString();
+        return currentDate.toString() + " " + currentTime.toString();
     }
 
     public AlarmClock nextSecond() {
-        super.nextSecond();
+        currentTime.nextSecond();
         return this;
     }
 
     public boolean checkAlarm() {
-        return(alarmModeOn || currentTime.equals(alarmTime));
+        return (alarmModeOn || currentTime.equals(alarmTime));
     }
 }
-

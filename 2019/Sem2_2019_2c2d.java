@@ -1,7 +1,7 @@
 public class Player {
     private Point position;
 
-    Player(int x, int y, int z) {
+    public Player(int x, int y, int z) {
         position = new Point(x, y, z);
     }
 

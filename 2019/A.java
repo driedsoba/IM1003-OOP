@@ -1,4 +1,4 @@
-public abstract class A implements X {
+public class A implements X {
     private String name;
 
     public A(String name) {

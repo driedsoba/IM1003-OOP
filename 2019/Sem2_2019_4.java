@@ -1,3 +1,5 @@
+// Warning code is not fully correct
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -26,7 +28,7 @@ public class SafeBox extends JFrame {
 
         // Bottom pane;
         Panel btmPanel = new Panel();
-        btmPanel.setLayout(new GridLayout(4, 3, 3, 3));
+        btmPanel.setLayout(new GridLayout(4, 3,3,3));
         buttons = new JButton[10];
 
         // Initializing and adding common listener to buttons
@@ -41,9 +43,9 @@ public class SafeBox extends JFrame {
         }
 
         // Adding the remaining 3 buttons
-        buttonsC = new JButton();
-        buttonsZero = new JButton();
-        buttonsE = new JButton();
+        buttonsC = new JButton("C");
+        buttonsZero = new JButton("0");
+        buttonsE = new JButton("E");
         btmPanel.add(buttonsC);
         btmPanel.add(buttonsZero);
         btmPanel.add(buttonsE);
@@ -51,6 +53,7 @@ public class SafeBox extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 display.setText("");
+                lockCode = "";
             }
         });
         buttonsZero.addActionListener(new ActionListener() {

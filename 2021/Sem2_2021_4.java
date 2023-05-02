@@ -7,11 +7,8 @@ public class ATM extends JFrame {
     private JLabel display;
     private JTextField inputField;
     private JButton subButton;
-
     private JButton clearButton;
-
     private JButton[] numButton;
-
     private String input = "";
 
     public ATM() {

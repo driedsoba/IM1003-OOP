@@ -3,12 +3,12 @@ public class Point2D implements PointBase {
     protected int x;
     protected int y;
 
-    Point2D() {
+    public Point2D() {
         this.x = 0;
         this.y = 0;
     }
 
-    Point2D(int x, int y){
+    public Point2D(int x, int y){
         this.x = x;
         this.y = y;
     }

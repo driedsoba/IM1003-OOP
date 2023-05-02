@@ -14,7 +14,9 @@ public class Pattern {
         for (int rows = 1; rows <= size; rows++) {
             System.out.print(label + ":");
             for (int cols = 1; cols <= size; cols++) {
+                if (cols <= rows) {
                 System.out.print(cols % 2 == 0 ? "-" : "+");
+                }
             }
             System.out.println();
             label++;

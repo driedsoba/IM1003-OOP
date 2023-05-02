@@ -6,17 +6,19 @@ public class Bookshelf {
 
     public Bookshelf(String owner) {
         this.owner = owner;
+        this.bookList = new Book[30];
     }
 
     public Bookshelf addBook(Book book) {
-        bookList = new Book[bookList.length - numBooks];
-        bookList[bookList.length - numBooks] = book;
-        ++numBooks;
+        if (numBooks < 30) {
+            bookList[numBooks] = book;
+            numBooks++;
+        }
         return this;
     }
 
     public Book findBookByTitle(String title) {
-        for (int i = 0; i < bookList.length; i++) {
+        for (int i = 0; i < numBooks; i++) {
             if (bookList[i].equals(title)) {
                 return bookList[i];
             }
